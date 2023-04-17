@@ -1,0 +1,298 @@
+:root {
+    --cor-primaria: #8E2424;
+    --cor-primaria-opaca: rgba(142, 36, 36, 0.05);
+    --cor-opaca-dois: rgba(195, 25, 25, 0.03);
+    --cor-secundaria: #667085;
+    --cor-terciaria: #101828;
+    --cor-quaternaria: #EAECF0;
+}
+
+
+* {
+    font-family:  'Inter', sans-serif; 
+}
+
+body {
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+  }
+
+.container__cabecalho {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+    
+}
+
+.container__logo {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.container__logo p{
+    color: var()
+}
+
+.container__nav {
+    color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 28px;
+}
+
+.container__nav li {
+    list-style: none;
+}
+
+.container__login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.container__login p {
+    color: var(--cor-secundaria);
+}
+
+.container__cadastro__buttom{
+    align-items: center;
+    background: var(--cor-primaria);
+    color: white;
+    border: solid 1px var(--cor-primaria);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 8% 13% 8% 13%;
+}
+
+
+/* segundo dia */
+
+.about__us {
+    text-align: center;
+    padding: 6rem 0;
+    font-size: 1rem;
+}
+
+.about__us span {
+    font-weight: 600;
+    color: var(--cor-primaria);
+}
+
+.about__us h1 {
+    color: var(--cor-terciaria);
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+.about__us p {
+    /* border: solid 1px var(--cor-primaria); */
+    font-weight: 400;
+    margin: 0 26% 0 26%;
+    color: var(--cor-secundaria);
+}
+
+/* terceiro dia */
+
+.metricas {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.metricas div {
+    text-align:left;
+    width: 10rem;
+    
+}
+
+.metricas h1 {
+    margin:auto;
+    font-size: 2.8rem;
+    color: var(--cor-primaria);
+    
+}
+
+.metricas span {
+    color: var(--cor-terciaria);
+    margin: 0;
+    padding: 1rem 0 0 0;
+    font-weight: bold;
+}
+
+.metricas p {
+    color: var(--cor-secundaria);
+    font-size: 0.7rem;
+    font-weight: 200;
+}
+
+/* quarto dia */
+
+
+.vagas__texto {
+    text-align: center;
+    margin: 5rem 0 5rem 0;
+}
+
+.vagas__abertas {
+    color: var(--cor-primaria);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: var(--cor-primaria-opaca);
+    padding: 4px 12px;     
+    border-radius: 16px;
+}
+
+.vagas__texto h3 {
+    color: var(--cor-terciaria);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.vagas__texto p {
+    color: var(--cor-secundaria);
+}
+.vagas__imagem {
+    text-align: center;
+    
+}
+
+/* quinto dia */
+
+.vagas__tipo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    gap: 24px;
+}
+
+.vaga__tipo {
+    margin: 3% 20% 1% 20%;
+    font-size: 1.2rem;
+    color: var(--cor-terciaria);
+    
+}
+.vagas__bloco {
+    margin: 0 20% 0 20%;
+    padding: 1% 3%;
+    border: solid 1px var(--cor-quaternaria);
+    border-radius: 20px;
+}
+
+.vagas__bloco h1 {
+    font-size: 1.1rem;
+    color: var(--cor-terciaria);
+}
+
+.vagas__detalhe {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5%;
+    color: var(--cor-secundaria)
+}
+
+/* sexto dia */
+
+.depoimentos {
+    padding-top: 4rem;
+    margin: 0 10% 0 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-opaca-dois);
+    text-align: center;
+    justify-content: center;
+}
+
+.depoimentos h4 {
+    color: var(--cor-primaria);
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.depoimentos h1 {
+    color: var(--cor-terciaria);
+    font-size: 2rem;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem
+    
+}
+.avatar {
+    width: 56px;
+    height: 56px;
+    padding: 0 47.4%;
+    align-items: center;
+    margin: 1.5% 0 1.5% 0;
+}
+
+.nome {
+    color: var(--cor-terciaria);
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.cargo {
+    color: var(--cor-secundaria);
+    font-size: 0.8rem;
+
+}
+
+.rodape {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-top: 5rem;
+}
+
+.rodape h1 {
+    font-size: 1.9rem;
+    color: var(--cor-terciaria);
+}
+
+.rodape h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    
+}
+
+.rodape p {
+    color: var(--cor-secundaria);
+    font-size: small;
+}
+
+.boxmail {
+    outline: none;
+    width: 20%;
+    padding: 1em;
+    border: 1px var(--cor-secundaria) solid;
+    border-radius: 0.5em;
+}
+
+.botao__cadastro {
+    align-items: center;
+    background: var(--cor-primaria);
+    color: white;
+    border: solid 1px var(--cor-primaria);
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 0.5em;
+    padding: 1em 2em;
+    font-weight: 500;
+    
+}
